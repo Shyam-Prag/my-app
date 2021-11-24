@@ -1,18 +1,6 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+const reactDom = require("react-dom");
 
-const x = 10;
-let text = "Goodbye";
-if (x < 10) {
-  text = "Hello";
-}
-
-const myelement = <h1>{text}</h1>;
-
-
-
-
-ReactDOM.render(myelement, document.getElementById('root'));
+reactDom.render(<h1>Hello, everyone</h1>, document.getElementById("root"))
 
 
 
